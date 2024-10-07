@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   return (
     <div id="pageWrapper">
       <Head>
-        <title>Eric Kugel</title>
+        <title>Gopher Tickets</title>
         <link rel="icon" href="/favicon.ico"></link>
       </Head>
       <Banner />

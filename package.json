@@ -5,6 +5,8 @@
     "build": "next build"
   },
   "dependencies": {
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.0",
     "next": "latest",
     "next-auth": "^4.24.8",
     "react": "^18.2.0",

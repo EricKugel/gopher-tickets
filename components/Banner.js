@@ -1,7 +1,16 @@
+import Link from "next/link";
+
 const Banner = () => {
     return (
       <>
-        <div id="banner">gopher-tickets.com</div>
+        <div id="banner">
+          <Link href="/">
+            <div>gopher-tickets.com</div>
+          </Link>
+          <Link href="/profile">
+            <div>Edit Profile</div>
+          </Link>
+        </div>
         <style jsx>{`
           #banner {
             background-color: gray;
